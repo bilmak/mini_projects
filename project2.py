@@ -18,7 +18,7 @@ def print_row(row):
 
 
 def get_payout(row, bet):
-    if row[0] == row[1] and  row[0] == row[2] and row[1]==row[2]:
+    if row[0] == row[1] and row[0] == row[2] and row[1] == row[2]:
         if row[0] == "🍎":
             bet *= 2
         elif row[0] == "🍉":
@@ -27,6 +27,11 @@ def get_payout(row, bet):
             bet *= 3
         elif row[0] == "🍒":
             bet *= 5
+
+        print(f"Congratulation, you win ${bet}")
+    else:
+        bet=0
+
     return bet
 
 
@@ -47,14 +52,18 @@ def main():
         if bet <= 0:
             print("Bet must be greater than 0")
             continue
-        balance -= bet
 
+        
         row = spin_row()
         print_row(row)
         payout = get_payout(row, bet)
         if payout > 0:
-            
             balance += payout
+        else:
+            balance -= bet
+            
+        print(f"Your balance is ${balance}")
+        
 
 
 if __name__ == '__main__':
