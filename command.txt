@@ -1,0 +1,4 @@
+curl -X POST "http://127.0.0.1:8000/items?item=Apple" -H "accept: application/json" -d ""
+curl -X GET http://127.0.0.1:8000/items/0
+curl -X GET http://127.0.0.1:8000/items
+curl -X GET "http://127.0.0.1:8000/items?limit=2"
