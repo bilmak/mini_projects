@@ -61,5 +61,12 @@ def update_item(item_id: int, item:UpdateItem ):
         inventory[item_id]["brand"] = item.brand
         
     return inventory[item_id]
+
+@app.delete("/delete/{item_id}")
+def delete_item(item_id: int):
+    if item_id not in inventory:
+        return {"error": "Id is not in dict"}
+    del inventory[item_id]
+    return {"Success":"Item is deleted"}
         
         
