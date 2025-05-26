@@ -5,7 +5,7 @@ import numpy as np
 
 
 
-voice_file = "ZOOM01.WAV"
+voice_file = "voice.wav"
 recognize = sr.Recognizer()
 
 def recognize_from_file(file):
@@ -13,7 +13,7 @@ def recognize_from_file(file):
         #load audio to memory
         audio_data= recognize.record(source)
         #convert from speech to text
-        text = recognize.recognize_google(audio_data, language="us-US")
+        text = recognize.recognize_google(audio_data, language="en-US")
         return text
     
 
