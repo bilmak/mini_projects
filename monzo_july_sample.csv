@@ -1,0 +1,9 @@
+Transaction ID,Date,Time,Type,Name,Emoji,Category,Amount,Currency,Local amount,Local currency,Notes and #tags,Address,Receipt,Description,Local Address,City,Country,Extra
+tx_0000ALLfiP0MER7r7MyaGn,10/7/2022,12:33:15,Faster payment,KIVIOJA,,Transfers,100.00,GBP,100.00,GBP,Monzo-XJDQV,,,,Monzo-XJDQV,,,
+tx_0000ALLfn4F7ICKvMPcHn,10/7/2022,12:34:06,Card payment,Apple,🍎,Entertainment,-249.99,GBP,-249.99,GBP,,,,,APPLE.COM/BILL,,,APPLE.COM/BILL
+tx_0000ALNdb7eCYZxHNCyPSL,10/7/2022,11:18:57,Card payment,Google,🎮,Entertainment,0.00,GBP,0.00,GBP,,,,Card check,GOOGLE *TEMPORAR,,,
+tx_0000ALNdgAnwFKisc2w6aX,10/7/2022,11:19:52,Card payment,YouTube Premium,📺,Entertainment,-11.99,GBP,-11.99,GBP,,,,,GOOGLE YouTubePrem,,,
+tx_0000ALSHfYqM9qyyqWkURJ,13/7/2022,17:06:48,Card payment,Adobe,💻,General,-1.00,GBP,-1.00,GBP,,,,,ADOBE SYSTEMS SOFTWARE ADOBE.LY/BILL,,,
+tx_0000ALSHfCdfCELlqfTYTzX,13/7/2022,17:06:49,Card payment,Adobe,💻,General,-1.00,GBP,-1.00,GBP,,,,,ADOBE SYSTEMS SOFTWARE ADOBE.LY/BILL,,,
+tx_0000ALSSEeYdu3kdZ8aYET,13/7/2022,19:05:12,Card payment,Adobe Systems Software Ireland,💻,Entertainment,-9.98,GBP,-9.98,GBP,,,,,"4–6 Riverwalk, City West Busin",,,
+tx_0000ALSYc5Ym1BqsszBTF,17/7/2022,07:24:02,Card payment,Apple,🍎,Entertainment,-0.79,GBP,-0.79,GBP,,,,,APPLE.COM/BILL,,,APPLE.COM/BILL

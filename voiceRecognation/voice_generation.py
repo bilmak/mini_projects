@@ -10,5 +10,5 @@ def creating_mp3(text):
     sound.export("voice.wav", format="wav")
 
 
-text = "Hello, this is a test version for your project."
+text = "Hello! This is my house. This is a Elsa. He's my friend"
 creating_mp3(text)
